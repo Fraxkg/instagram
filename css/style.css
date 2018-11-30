@@ -1,0 +1,396 @@
+body{
+	background-color: #E1E1E1;
+	margin: 0;
+}
+
+.headerLogo{
+	background-color: #EF6A6A;
+	background-image: -webkit-linear-gradient(91deg, #E1E1E1 40.666%,#EF6A6A 41%);
+	max-height: 100px;
+	max-width: 100%;
+	width: 100%;
+	padding-bottom:50px;
+	padding-top:0;
+	display: flex;
+}
+
+.headerLogo img{
+	margin: 0 auto;
+	margin-top: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.hamburg{
+	display: none;
+}
+
+/*.hamburg{
+	color: #E1E1E1;
+	font-size: 60px;
+	background-color: transparent;
+	border: none;
+	margin-top: 10px;
+	margin-left: 5px;
+
+}*/
+
+.bus{
+		position: absolute;
+		right: 20px;
+		max-height:40px;
+		width:290px;
+		margin-top: 15px;
+		background-color: transparent;
+		overflow: hidden;
+		display: flex;
+}
+.busInput{
+	color: #8A8989;
+	margin-right: 13px;
+	border-radius: 20px;
+	width: 250px;
+	border:none;
+	background-color: #E1E1E1;
+	padding:5px;
+	padding-left: 10px;
+}
+
+
+.bus button{
+	color: white;
+	width: 40px;
+	height: 30px;
+	font-size: 20px;	
+	margin-right: 10px;
+	background-color: #EF6A6A;
+	border: none;
+}
+
+.bus button:hover{
+	border: 1px solid #E1E1E1;
+	border-radius: 20px;
+	background-color:#F64D4D;
+	transition-delay: 0.10s;
+	cursor: pointer;
+}
+
+.lab:hover{
+	cursor: default;
+}
+
+.contents{
+	display: flex;
+	padding-left: 5%;
+
+}
+.left{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.inisesion{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #EF6A6A;
+	padding:80px 60px;
+	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+	height: 600px;
+	width: 200px;
+	max-height: 400px;
+	margin-top: -30px;
+	overflow: hidden;
+	border: none;
+}
+
+.lab{
+	margin-bottom: 30px;
+	margin-top: 100px;
+	color: #E1E1E1;
+	font-size: 25px;
+
+}
+
+.inisesion button{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.nologInput{
+	margin-bottom: 20px;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 10px;
+	width: 200px;
+	height: 20px;
+	border: none;
+	background-color: #E1E1E1;	
+}
+
+.nologBut{
+	background-color: transparent;
+	border-radius: 20px;
+	border: 3px solid #E1E1E1;
+	color: #E1E1E1;
+	padding: 8px;
+	padding-left: 13px;
+	height: 40px;
+}
+
+.nologBut:hover{
+	color: white;
+	background-color:#F64D4D;
+	border-color: white;
+	transition-delay: 0.10s;
+	cursor: pointer;
+}
+
+.registro div{
+	display: flex;
+}
+.registro div h3{
+	color: #E1E1E1;
+	font-size: 20px;
+	margin-right: 20px;
+	width: 120px;
+	text-align: left;
+	padding:none;
+}
+
+.registro h3:hover{
+	cursor: default;
+}
+
+.registro input{
+	margin: auto 0;
+	margin-right: 10px;
+	width: 350px; 
+}
+
+.registro input[id="unique"]{
+	margin: auto 0;
+	margin-right: 10px;
+	width: 720px; 
+}
+
+.registro{
+	text-align: center;
+	background-color: #EF6A6A;
+	margin-left: 5%;
+	margin-top: -30px;
+	padding:80px 60px ;
+	width: 100%;
+	overflow: hidden;
+	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+}
+
+.registro button{
+	margin-bottom: 0;
+	width: 200px;
+}
+
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	background-color: #EF6A6A;
+	padding: 20px 0;
+	margin: 0 20px;
+	margin-top: -30px;
+	width: 200px;
+	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+	padding-top: 120px;
+}
+
+.menu h3{
+	font-size: 15px;
+	color: #E1E1E1;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.menu a:hover{
+	color: gray;
+}
+
+.menu img{
+	margin: 0 auto;
+	max-width: 60%;
+	max-height: 60%;
+}
+
+.menu a{
+	text-decoration: none;
+	width: 200px;
+	color: #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	margin-bottom: 20px; 
+	font-size: 25px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.posts{
+	background-color: #EF6A6A;
+	padding: 20px;
+	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+	margin-top: -30px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.headPost{
+	display: flex;
+	height: 80px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+.comment{
+	font-size: 20px;
+	color: #E1E1E1;
+}
+.post{
+padding-top: 120px;
+display: flex;
+flex-direction: column; 
+}
+.headPost img{
+	max-height: 60%;
+	max-width: 60%;
+	padding: 5px;
+}
+
+.intera{
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+	
+}
+.intera button{
+	margin: 10px 5px;
+	font-size: 50px;
+	color: white;
+	background-color: transparent;
+	border: none;
+}
+
+.intera button:hover{
+	border: 1px solid #E1E1E1;
+	background-color: #F64D4D;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.imgPost{
+	padding-top: 10px;
+	display: flex;
+}
+
+.imgPost img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+
+}
+
+.publish{
+	background-color: #EF6A6A;
+	color: white;
+	background-image: -webkit-linear-gradient(272deg, #E1E1E1 20.666%,#EF6A6A 21%);
+	margin: 10px 20px;
+	padding: 30px 20px;
+	padding-bottom: 0;
+	display:flex;
+	flex-direction: column;
+	height: 300px;
+}
+
+
+.publish h3{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.publish input[type="text"]{
+	/*igual a no logBut salvo*/
+	margin: 0 auto ;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 10px;
+	width: 200px;
+	height: 50px;
+	border: none;
+	background-color: #E1E1E1
+}
+
+.postBut{
+	border: 1px solid #E1E1E1;
+	background-color: #F64D4D;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.imgsel{
+	text-decoration:none;
+	background-color: #EF6A6A;
+	color: white;
+	margin: 5px;
+}
+
+.publish button{
+	margin: 10px 5px;
+	font-size: 20px;
+	color: white;
+	background-color: transparent;
+	border: white;
+	background-color: #F64D4D;
+	border-radius: 10px;
+	border: 1px solid #E1E1E1;
+}
+
+.publish button:hover{
+	color: #E1E1E1;
+	cursor: pointer;
+	border-color: #E1E1E1;
+
+	}
+
+.com{
+	display: flex;
+	margin-top: 0 auto;
+}
+
+.com input{
+	margin-top: 20px;
+}
+
+
+.comentario{
+		background-color:#f36161;
+		color: white;
+		font-size: 15px; 
+		border: 1px solid #ffffff;
+		border-radius:15px;
+		padding: 10px;
+		width: 300px;
+
+	}
+
+	.PostComent{
+		height: 20px;
+		background-color: transparent;
+		border: none;
+		margin-top: 10px;	
+		padding: 20px;
+		text-align: center;
+	}
+
+	.PostComent:hover{
+	cursor: pointer;
+	color: white;
+	border-radius: 15px;
+	background-color: #f36161; 
+	border: 1px solid #ffffff;
+	}
